@@ -1,17 +1,17 @@
 class Lens < Formula
   desc "Token-usage and cache-health tracker for Claude Code"
   homepage "https://github.com/humanstandardsystems/lens"
-  version "0.3.2"
+  version "0.3.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/humanstandardsystems/lens/releases/download/v0.3.2/lens-darwin-arm64.tar.gz"
-      sha256 "464249d578e6c32503bb5f481b3eeabe87a61b9db83d496b08f01464dd1c1799"
+      url "https://github.com/humanstandardsystems/lens/releases/download/v0.3.3/lens-darwin-arm64.tar.gz"
+      sha256 "cc5438e04eda1ac5270230139eacb5108abf2609b42ac8e64b8a512ac1e79a8d"
     end
     on_intel do
-      url "https://github.com/humanstandardsystems/lens/releases/download/v0.3.2/lens-darwin-amd64.tar.gz"
-      sha256 "aba51a04100fb6125948099caaccf3c03f580dee949a92da75b8073a0608d362"
+      url "https://github.com/humanstandardsystems/lens/releases/download/v0.3.3/lens-darwin-amd64.tar.gz"
+      sha256 "1e147f88a77134018ffa32c01f9dd9613493096d96a1812499b0dcbea0c6d312"
     end
   end
 
